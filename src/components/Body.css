@@ -1,0 +1,203 @@
+.centered-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.background-image-1 {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/Logos/Ellipse 292.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.5; */
+}
+
+.background-image-2 {
+  position: absolute;
+  top: 105px;
+  left: 455px;
+  width: 350px;
+  height: 350px;
+  background-image: url("./assets/Logos/Ellipse\ 286.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.5; */
+}
+
+.Gta {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 16px;
+  left: 250px;
+}
+
+.background-image-3 {
+  position: absolute;
+  top: 40px;
+  left: 390px;
+  width: 470px;
+  height: 450px;
+  background-image: url("./assets/Logos/Ellipse\ 287.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.5; */
+}
+
+.Gift {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 435px;
+  left: 140px;
+}
+
+.Bat {
+  position: absolute;
+  top: 14px;
+  left: 110px;
+  width: 33px;
+  height: 33px;
+  background-color: rgba(251, 255, 53, 1);
+  border-radius: 7px;
+}
+
+.background-image-4 {
+  position: absolute;
+  top: -20px;
+  left: 320px;
+  width: 600px;
+  height: 600px;
+  background-image: url("./assets/Logos/Ellipse\ 288.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.5; */
+}
+
+.monst {
+  position: absolute;
+  height: 33px;
+  width: 33px;
+  left: -10px;
+  top: 205px;
+}
+
+.combat {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  left: 500px;
+  top: 500px;
+}
+
+.footballer {
+  position: absolute;
+  top: 180px;
+  left: 570px;
+  height: 35px;
+  width: 35px;
+}
+
+.centered-content__background {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+.centered-content__headline {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.centered-content__paragraph {
+  font-size: 11px;
+  color: #9F9F9F;
+  line-height: 22px;
+}
+
+.green {
+  color: #5DF5B5;
+}
+
+button {
+  margin-top: 20px;
+  width: 138px;
+  height: 35px;
+  border-radius: 24px;
+  border: 1px solid black;
+  background-color: #444444;
+  color: #ffffff;
+  border-color: #cbcbcb;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .background-image-2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+  }
+
+  .background-image-3 {
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+  }
+
+  .background-image-4 {
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 400px;
+  }
+
+  .centered-content__headline {
+    font-size: 2rem;
+  }
+
+  .centered-content__paragraph {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  button {
+    width: 120px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .background-image-2,
+  .background-image-3,
+  .background-image-4 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .centered-content__headline {
+    font-size: 1.8rem;
+  }
+
+  .centered-content__paragraph {
+    font-size: 9px;
+    line-height: 18px;
+  }
+
+  button {
+    width: 100px;
+    height: 25px;
+  }
+}
